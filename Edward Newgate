@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Newgate's Bio</title>
+    <style>
+        body {
+            background: url('https://media.discordapp.net/attachments/1176188030013411328/1178273694833971302/DEF3AEA0-982A-46C7-BDB2-8B0C0472255B.gif?ex=65758be4&is=656316e4&hm=a2acd12af78f0e46863dfa9c09e49908b5f157ad71b2a564cc9be1712ac639d1&=&width=747&height=420') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #avatar {
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        #bio {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        #links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="bio">
+        <img id="avatar" src="https://media.discordapp.net/attachments/1176188030013411328/1178272413058867240/9F61AE6E-1561-4946-98BA-00BE5668BED2.gif?ex=65758ab2&is=656315b2&hm=155a007df88cb270ca8f8e8de1688a9067368c7f6a2ef70a70b7b2cec7691b98&=&width=810&height=600" alt="Avatar">
+        <div id="name">Edward Newgate</div>
+        <div id="links">
+            <a href="https://discord.gg/wMAAcxjFww" target="_blank">Discord</a>
+            <a href="https://m.facebook.com/profile.php?id=100090456606841" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/@Edward_Newgate656" target="_blank">YouTube</a>
+        </div>
+    </div>
+</body>
+</html>
